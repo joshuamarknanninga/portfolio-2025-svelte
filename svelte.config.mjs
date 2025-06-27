@@ -6,7 +6,7 @@ export default {
     vitePreprocess(),
     preprocess({
       scss: { includePaths: ['src/styles'] },
-      postcss: true,
-    }),
-  ],
+      postcss: true
+    })
+  ]
 };
